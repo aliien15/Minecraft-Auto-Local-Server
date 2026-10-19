@@ -3,7 +3,7 @@
 A collection of bash scripts to instantly start, enable, and delete a local Minecraft test server (Paper, Purpur, or Folia). Made for rapid plugin development and testing.
 
 ### ⚠️ Important Warnings
-* **OS Compatibility:** These scripts are specifically designed for and only guaranteed to work on **Linux** systems. TI cannot guaranteed and will not worry about making this work on Windows or MacOS.
+* **OS Compatibility:** These scripts are specifically designed for and only guaranteed to work on **Linux** systems. I cannot guaranteed and will not worry about making this work on Windows or MacOS.
 * **Automatic EULA Acceptance:** By running these scripts, you are automatically agreeing to the [Minecraft EULA](https://www.minecraft.net/en-us/eula). The setup script automatically generates the `eula=true` file required to boot the server.
 
 ---
