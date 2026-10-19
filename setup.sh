@@ -21,7 +21,7 @@ echo "Fetching latest build for $SOFTWARE $MC_VERSION..."
 
 if [ "$SOFTWARE" == "paper" ] || [ "$SOFTWARE" == "folia" ]; then
     DOWNLOAD_URL=$(curl -s -H "User-Agent: LocalSetupScript/1.0" "https://fill.papermc.io/v3/projects/${SOFTWARE}/versions/${MC_VERSION}/builds" | jq -r '.[-1].downloads."server:default".url')
-    
+
     if [ -z "$DOWNLOAD_URL" ] || [ "$DOWNLOAD_URL" == "null" ]; then
         echo "Error: Could not fetch build URL. Check if the version $MC_VERSION exists for $SOFTWARE."
         exit 1
